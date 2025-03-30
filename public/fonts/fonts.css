@@ -1,0 +1,19 @@
+/* Google Sans (alternative to Product Sans) */
+@font-face {
+  font-family: 'Google Sans';
+  src: url('https://fonts.gstatic.com/s/googlesans/v45/4UaGrENHsxJlGDuGo1OIlL3Owps.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Google Sans';
+  src: url('https://fonts.gstatic.com/s/googlesans/v45/4UabrENHsxJlGDuGo1OIlLU94YtzCwM.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Fallback to Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');

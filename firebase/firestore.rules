@@ -1,0 +1,43 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow authenticated users to read all data
+    match /{document=**} {
+      allow read: if request.auth != null;
+    }
+    
+    // User profiles - users can only write to their own profile
+    match /users/{userId} {
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Appointments - users can create and manage their own appointments
+    match /appointments/{appointmentId} {
+      allow create: if request.auth != null;
+      allow update, delete: if request.auth != null && 
+        (resource.data.patientId == request.auth.uid || 
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'doctor' ||
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin');
+    }
+    
+    // Queue data - only staff can modify
+    match /queue/{queueId} {
+      allow write: if request.auth != null && 
+        (get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'staff' ||
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'doctor' ||
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin');
+    }
+    
+    // Doctors - only admins can modify
+    match /doctors/{doctorId} {
+      allow write: if request.auth != null && 
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+    }
+    
+    // Model data - only admins can modify
+    match /model/{modelId} {
+      allow write: if request.auth != null && 
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+    }
+  }
+}

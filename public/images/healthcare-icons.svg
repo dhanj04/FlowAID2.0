@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+  <!-- Doctor Icon -->
+  <g transform="translate(50, 50)">
+    <circle cx="50" cy="50" r="45" fill="#4f46e5" opacity="0.1" />
+    <path d="M50,20 C39,20 30,29 30,40 C30,47 34,53 40,56 C40,56 40,58 40,60 L40,65 C40,67 42,70 45,70 L55,70 C58,70 60,67 60,65 L60,60 C60,58 60,56 60,56 C66,53 70,47 70,40 C70,29 61,20 50,20 Z" fill="#4f46e5" />
+    <rect x="42" y="70" width="16" height="10" fill="#4f46e5" />
+    <path d="M40,80 L40,90 L45,95 L55,95 L60,90 L60,80 Z" fill="#4f46e5" />
+    <rect x="45" y="35" width="10" height="3" fill="white" />
+    <rect x="45" y="30" width="10" height="3" fill="white" />
+  </g>
+
+  <!-- Nurse Icon -->
+  <g transform="translate(150, 50)">
+    <circle cx="50" cy="50" r="45" fill="#0ea5e9" opacity="0.1" />
+    <path d="M50,20 C39,20 30,29 30,40 C30,47 34,53 40,56 C40,56 40,58 40,60 L40,65 C40,67 42,70 45,70 L55,70 C58,70 60,67 60,65 L60,60 C60,58 60,56 60,56 C66,53 70,47 70,40 C70,29 61,20 50,20 Z" fill="#0ea5e9" />
+    <rect x="42" y="70" width="16" height="10" fill="#0ea5e9" />
+    <path d="M40,80 L40,90 L45,95 L55,95 L60,90 L60,80 Z" fill="#0ea5e9" />
+    <path d="M40,40 L60,40 L60,45 L55,45 L55,55 L60,55 L60,60 L40,60 L40,55 L45,55 L45,45 L40,45 Z" fill="white" />
+  </g>
+
+  <!-- Patient Icon -->
+  <g transform="translate(250, 50)">
+    <circle cx="50" cy="50" r="45" fill="#8b5cf6" opacity="0.1" />
+    <path d="M50,20 C39,20 30,29 30,40 C30,47 34,53 40,56 C40,56 40,58 40,60 L40,65 C40,67 42,70 45,70 L55,70 C58,70 60,67 60,65 L60,60 C60,58 60,56 60,56 C66,53 70,47 70,40 C70,29 61,20 50,20 Z" fill="#8b5cf6" />
+    <rect x="42" y="70" width="16" height="10" fill="#8b5cf6" />
+    <path d="M40,80 L40,90 L45,95 L55,95 L60,90 L60,80 Z" fill="#8b5cf6" />
+  </g>
+
+  <!-- Priority Icons -->
+  <g transform="translate(350, 50)">
+    <circle cx="50" cy="50" r="45" fill="#ef4444" opacity="0.1" />
+    <path d="M50,25 L65,55 L35,55 Z" fill="#ef4444" />
+    <rect x="48" y="60" width="4" height="15" rx="2" fill="#ef4444" />
+    <circle cx="50" cy="80" r="2" fill="#ef4444" />
+  </g>
+
+  <g transform="translate(450, 50)">
+    <circle cx="50" cy="50" r="45" fill="#10b981" opacity="0.1" />
+    <path d="M35,50 L45,60 L65,40" stroke="#10b981" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

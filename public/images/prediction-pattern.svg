@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.3">
+    <!-- Main chart elements -->
+    <path d="M100,350 L150,280 L200,320 L250,200 L300,250 L350,180 L400,220" 
+          stroke="#FB6340" 
+          stroke-width="4" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"
+          fill="none"/>
+    
+    <!-- Dots at points -->
+    <circle cx="100" cy="350" r="6" fill="#FB6340"/>
+    <circle cx="150" cy="280" r="6" fill="#FB6340"/>
+    <circle cx="200" cy="320" r="6" fill="#FB6340"/>
+    <circle cx="250" cy="200" r="6" fill="#FB6340"/>
+    <circle cx="300" cy="250" r="6" fill="#FB6340"/>
+    <circle cx="350" cy="180" r="6" fill="#FB6340"/>
+    <circle cx="400" cy="220" r="6" fill="#FB6340"/>
+    
+    <!-- Secondary chart -->
+    <path d="M100,380 L150,330 L200,360 L250,300 L300,340 L350,290 L400,320" 
+          stroke="#5E72E4" 
+          stroke-width="3" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"
+          stroke-dasharray="5,5"
+          fill="none"/>
+    
+    <!-- Horizontal grid lines -->
+    <line x1="80" y1="150" x2="420" y2="150" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="80" y1="200" x2="420" y2="200" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="80" y1="250" x2="420" y2="250" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="80" y1="300" x2="420" y2="300" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="80" y1="350" x2="420" y2="350" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="80" y1="400" x2="420" y2="400" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <!-- Vertical grid lines -->
+    <line x1="100" y1="130" x2="100" y2="420" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="150" y1="130" x2="150" y2="420" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="200" y1="130" x2="200" y2="420" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="250" y1="130" x2="250" y2="420" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="300" y1="130" x2="300" y2="420" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="350" y1="130" x2="350" y2="420" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="400" y1="130" x2="400" y2="420" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <!-- Chart frame -->
+    <rect x="80" y="130" width="340" height="290" stroke="#A0AEC0" stroke-width="2" fill="none"/>
+    
+    <!-- Decorative elements -->
+    <path d="M50,50 Q100,20 150,50 Q200,80 250,50 Q300,20 350,50 Q400,80 450,50" stroke="#5E72E4" stroke-width="2" fill="none" opacity="0.3"/>
+    <path d="M50,80 Q100,50 150,80 Q200,110 250,80 Q300,50 350,80 Q400,110 450,80" stroke="#11CDEF" stroke-width="2" fill="none" opacity="0.3"/>
+    <path d="M50,470 Q100,440 150,470 Q200,500 250,470 Q300,440 350,470 Q400,500 450,470" stroke="#5E72E4" stroke-width="2" fill="none" opacity="0.3"/>
+    <path d="M50,440 Q100,410 150,440 Q200,470 250,440 Q300,410 350,440 Q400,470 450,440" stroke="#FB6340" stroke-width="2" fill="none" opacity="0.3"/>
+  </g>
+</svg>

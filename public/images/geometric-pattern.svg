@@ -1,0 +1,63 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Patterns -->
+    <pattern id="smallDots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1.5" fill="#4F46E5" opacity="0.3"/>
+    </pattern>
+    
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="url(#smallDots)"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#4F46E5" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+    
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0.05"/>
+    </linearGradient>
+    
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="1000" fill="url(#primaryGradient)"/>
+  <rect width="1000" height="1000" fill="url(#grid)"/>
+  
+  <!-- Geometric Elements -->
+  <!-- Circles -->
+  <circle cx="200" cy="200" r="100" stroke="#4F46E5" stroke-width="1" stroke-dasharray="2 2" fill="none" opacity="0.3"/>
+  <circle cx="800" cy="800" r="150" stroke="#0EA5E9" stroke-width="1" stroke-dasharray="2 2" fill="none" opacity="0.3"/>
+  <circle cx="500" cy="500" r="300" stroke="#10B981" stroke-width="1" stroke-dasharray="2 2" fill="none" opacity="0.2"/>
+  
+  <!-- Lines -->
+  <line x1="0" y1="0" x2="1000" y2="1000" stroke="#4F46E5" stroke-width="1" opacity="0.1"/>
+  <line x1="1000" y1="0" x2="0" y2="1000" stroke="#4F46E5" stroke-width="1" opacity="0.1"/>
+  
+  <!-- Horizontal Lines -->
+  <line x1="0" y1="250" x2="1000" y2="250" stroke="#4F46E5" stroke-width="1" opacity="0.1"/>
+  <line x1="0" y1="500" x2="1000" y2="500" stroke="#4F46E5" stroke-width="1" opacity="0.1"/>
+  <line x1="0" y1="750" x2="1000" y2="750" stroke="#4F46E5" stroke-width="1" opacity="0.1"/>
+  
+  <!-- Vertical Lines -->
+  <line x1="250" y1="0" x2="250" y2="1000" stroke="#4F46E5" stroke-width="1" opacity="0.1"/>
+  <line x1="500" y1="0" x2="500" y2="1000" stroke="#4F46E5" stroke-width="1" opacity="0.1"/>
+  <line x1="750" y1="0" x2="750" y2="1000" stroke="#4F46E5" stroke-width="1" opacity="0.1"/>
+  
+  <!-- Hexagons -->
+  <path d="M500 150 L575 187.5 L575 262.5 L500 300 L425 262.5 L425 187.5 Z" stroke="#4F46E5" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M200 650 L275 687.5 L275 762.5 L200 800 L125 762.5 L125 687.5 Z" stroke="#0EA5E9" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M800 350 L875 387.5 L875 462.5 L800 500 L725 462.5 L725 387.5 Z" stroke="#10B981" stroke-width="1" fill="none" opacity="0.3"/>
+  
+  <!-- Triangles -->
+  <path d="M150 400 L250 400 L200 300 Z" stroke="#8B5CF6" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M750 600 L850 600 L800 500 Z" stroke="#8B5CF6" stroke-width="1" fill="none" opacity="0.3"/>
+  
+  <!-- Squares -->
+  <rect x="400" y="700" width="100" height="100" stroke="#F59E0B" stroke-width="1" fill="none" opacity="0.3" transform="rotate(45, 450, 750)"/>
+  <rect x="600" y="200" width="100" height="100" stroke="#F59E0B" stroke-width="1" fill="none" opacity="0.3" transform="rotate(45, 650, 250)"/>
+  
+  <!-- Center Glow -->
+  <circle cx="500" cy="500" r="300" fill="url(#glowGradient)"/>
+</svg>

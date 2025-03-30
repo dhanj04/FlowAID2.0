@@ -1,0 +1,67 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circles -->
+  <circle cx="150" cy="150" r="100" fill="#4F46E5" fill-opacity="0.1"/>
+  <circle cx="650" cy="450" r="120" fill="#0EA5E9" fill-opacity="0.1"/>
+  <circle cx="400" cy="300" r="80" fill="#10B981" fill-opacity="0.1"/>
+  
+  <!-- Blobs -->
+  <path d="M700 100C700 155.228 655.228 200 600 200C544.772 200 500 155.228 500 100C500 44.7715 544.772 0 600 0C655.228 0 700 44.7715 700 100Z" fill="#8B5CF6" fill-opacity="0.1"/>
+  <path d="M300 500C300 555.228 255.228 600 200 600C144.772 600 100 555.228 100 500C100 444.772 144.772 400 200 400C255.228 400 300 444.772 300 500Z" fill="#F59E0B" fill-opacity="0.1"/>
+  
+  <!-- Lines -->
+  <line x1="100" y1="300" x2="700" y2="300" stroke="#4F46E5" stroke-width="2" stroke-opacity="0.2" stroke-dasharray="10 5"/>
+  <line x1="400" y1="100" x2="400" y2="500" stroke="#0EA5E9" stroke-width="2" stroke-opacity="0.2" stroke-dasharray="10 5"/>
+  
+  <!-- Dots Grid -->
+  <g opacity="0.2">
+    <circle cx="200" cy="200" r="3" fill="#4F46E5"/>
+    <circle cx="250" cy="200" r="3" fill="#4F46E5"/>
+    <circle cx="300" cy="200" r="3" fill="#4F46E5"/>
+    <circle cx="350" cy="200" r="3" fill="#4F46E5"/>
+    <circle cx="400" cy="200" r="3" fill="#4F46E5"/>
+    <circle cx="450" cy="200" r="3" fill="#4F46E5"/>
+    <circle cx="500" cy="200" r="3" fill="#4F46E5"/>
+    <circle cx="550" cy="200" r="3" fill="#4F46E5"/>
+    <circle cx="600" cy="200" r="3" fill="#4F46E5"/>
+    
+    <circle cx="200" cy="250" r="3" fill="#4F46E5"/>
+    <circle cx="250" cy="250" r="3" fill="#4F46E5"/>
+    <circle cx="300" cy="250" r="3" fill="#4F46E5"/>
+    <circle cx="350" cy="250" r="3" fill="#4F46E5"/>
+    <circle cx="400" cy="250" r="3" fill="#4F46E5"/>
+    <circle cx="450" cy="250" r="3" fill="#4F46E5"/>
+    <circle cx="500" cy="250" r="3" fill="#4F46E5"/>
+    <circle cx="550" cy="250" r="3" fill="#4F46E5"/>
+    <circle cx="600" cy="250" r="3" fill="#4F46E5"/>
+    
+    <circle cx="200" cy="300" r="3" fill="#4F46E5"/>
+    <circle cx="250" cy="300" r="3" fill="#4F46E5"/>
+    <circle cx="300" cy="300" r="3" fill="#4F46E5"/>
+    <circle cx="350" cy="300" r="3" fill="#4F46E5"/>
+    <circle cx="400" cy="300" r="3" fill="#4F46E5"/>
+    <circle cx="450" cy="300" r="3" fill="#4F46E5"/>
+    <circle cx="500" cy="300" r="3" fill="#4F46E5"/>
+    <circle cx="550" cy="300" r="3" fill="#4F46E5"/>
+    <circle cx="600" cy="300" r="3" fill="#4F46E5"/>
+    
+    <circle cx="200" cy="350" r="3" fill="#4F46E5"/>
+    <circle cx="250" cy="350" r="3" fill="#4F46E5"/>
+    <circle cx="300" cy="350" r="3" fill="#4F46E5"/>
+    <circle cx="350" cy="350" r="3" fill="#4F46E5"/>
+    <circle cx="400" cy="350" r="3" fill="#4F46E5"/>
+    <circle cx="450" cy="350" r="3" fill="#4F46E5"/>
+    <circle cx="500" cy="350" r="3" fill="#4F46E5"/>
+    <circle cx="550" cy="350" r="3" fill="#4F46E5"/>
+    <circle cx="600" cy="350" r="3" fill="#4F46E5"/>
+    
+    <circle cx="200" cy="400" r="3" fill="#4F46E5"/>
+    <circle cx="250" cy="400" r="3" fill="#4F46E5"/>
+    <circle cx="300" cy="400" r="3" fill="#4F46E5"/>
+    <circle cx="350" cy="400" r="3" fill="#4F46E5"/>
+    <circle cx="400" cy="400" r="3" fill="#4F46E5"/>
+    <circle cx="450" cy="400" r="3" fill="#4F46E5"/>
+    <circle cx="500" cy="400" r="3" fill="#4F46E5"/>
+    <circle cx="550" cy="400" r="3" fill="#4F46E5"/>
+    <circle cx="600" cy="400" r="3" fill="#4F46E5"/>
+  </g>
+</svg>

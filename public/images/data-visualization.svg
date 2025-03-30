@@ -1,0 +1,90 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Grid -->
+  <pattern id="smallGrid" width="10" height="10" patternUnits="userSpaceOnUse">
+    <path d="M 10 0 L 0 0 0 10" fill="none" stroke="#E2E8F0" stroke-width="0.5" opacity="0.5"/>
+  </pattern>
+  <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+    <rect width="100" height="100" fill="url(#smallGrid)"/>
+    <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#CBD5E1" stroke-width="1" opacity="0.8"/>
+  </pattern>
+  <rect width="800" height="400" fill="url(#grid)" opacity="0.3"/>
+  
+  <!-- Coordinate System -->
+  <line x1="100" y1="300" x2="700" y2="300" stroke="#64748B" stroke-width="2"/>
+  <line x1="100" y1="50" x2="100" y2="300" stroke="#64748B" stroke-width="2"/>
+  
+  <!-- X-Axis Labels -->
+  <text x="100" y="320" font-family="Arial" font-size="12" fill="#64748B">0</text>
+  <text x="200" y="320" font-family="Arial" font-size="12" fill="#64748B">10</text>
+  <text x="300" y="320" font-family="Arial" font-size="12" fill="#64748B">20</text>
+  <text x="400" y="320" font-family="Arial" font-size="12" fill="#64748B">30</text>
+  <text x="500" y="320" font-family="Arial" font-size="12" fill="#64748B">40</text>
+  <text x="600" y="320" font-family="Arial" font-size="12" fill="#64748B">50</text>
+  <text x="700" y="320" font-family="Arial" font-size="12" fill="#64748B">60</text>
+  <text x="400" y="350" font-family="Arial" font-size="14" fill="#475569" text-anchor="middle">Time (minutes)</text>
+  
+  <!-- Y-Axis Labels -->
+  <text x="80" y="300" font-family="Arial" font-size="12" fill="#64748B" text-anchor="end">0</text>
+  <text x="80" y="250" font-family="Arial" font-size="12" fill="#64748B" text-anchor="end">5</text>
+  <text x="80" y="200" font-family="Arial" font-size="12" fill="#64748B" text-anchor="end">10</text>
+  <text x="80" y="150" font-family="Arial" font-size="12" fill="#64748B" text-anchor="end">15</text>
+  <text x="80" y="100" font-family="Arial" font-size="12" fill="#64748B" text-anchor="end">20</text>
+  <text x="80" y="50" font-family="Arial" font-size="12" fill="#64748B" text-anchor="end">25</text>
+  <text x="50" y="175" font-family="Arial" font-size="14" fill="#475569" text-anchor="middle" transform="rotate(-90, 50, 175)">Queue Length</text>
+  
+  <!-- Traditional Queue Line -->
+  <path d="M100,250 L150,240 L200,245 L250,230 L300,235 L350,250 L400,270 L450,280 L500,290 L550,270 L600,260 L650,250 L700,240" 
+        stroke="#EF4444" stroke-width="3" fill="none"/>
+  <circle cx="100" cy="250" r="4" fill="#EF4444"/>
+  <circle cx="150" cy="240" r="4" fill="#EF4444"/>
+  <circle cx="200" cy="245" r="4" fill="#EF4444"/>
+  <circle cx="250" cy="230" r="4" fill="#EF4444"/>
+  <circle cx="300" cy="235" r="4" fill="#EF4444"/>
+  <circle cx="350" cy="250" r="4" fill="#EF4444"/>
+  <circle cx="400" cy="270" r="4" fill="#EF4444"/>
+  <circle cx="450" cy="280" r="4" fill="#EF4444"/>
+  <circle cx="500" cy="290" r="4" fill="#EF4444"/>
+  <circle cx="550" cy="270" r="4" fill="#EF4444"/>
+  <circle cx="600" cy="260" r="4" fill="#EF4444"/>
+  <circle cx="650" cy="250" r="4" fill="#EF4444"/>
+  <circle cx="700" cy="240" r="4" fill="#EF4444"/>
+  
+  <!-- AI Optimized Queue Line -->
+  <path d="M100,250 L150,230 L200,210 L250,190 L300,170 L350,160 L400,150 L450,140 L500,130 L550,120 L600,110 L650,100 L700,90" 
+        stroke="#4F46E5" stroke-width="3" fill="none"/>
+  <circle cx="100" cy="250" r="4" fill="#4F46E5"/>
+  <circle cx="150" cy="230" r="4" fill="#4F46E5"/>
+  <circle cx="200" cy="210" r="4" fill="#4F46E5"/>
+  <circle cx="250" cy="190" r="4" fill="#4F46E5"/>
+  <circle cx="300" cy="170" r="4" fill="#4F46E5"/>
+  <circle cx="350" cy="160" r="4" fill="#4F46E5"/>
+  <circle cx="400" cy="150" r="4" fill="#4F46E5"/>
+  <circle cx="450" cy="140" r="4" fill="#4F46E5"/>
+  <circle cx="500" cy="130" r="4" fill="#4F46E5"/>
+  <circle cx="550" cy="120" r="4" fill="#4F46E5"/>
+  <circle cx="600" cy="110" r="4" fill="#4F46E5"/>
+  <circle cx="650" cy="100" r="4" fill="#4F46E5"/>
+  <circle cx="700" cy="90" r="4" fill="#4F46E5"/>
+  
+  <!-- Area Under AI Curve -->
+  <path d="M100,250 L150,230 L200,210 L250,190 L300,170 L350,160 L400,150 L450,140 L500,130 L550,120 L600,110 L650,100 L700,90 L700,300 L100,300 Z" 
+        fill="url(#blueGradient)" opacity="0.2"/>
+  
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Legend -->
+  <rect x="550" y="30" width="20" height="3" fill="#EF4444"/>
+  <text x="580" y="35" font-family="Arial" font-size="12" fill="#64748B">Traditional Queue</text>
+  
+  <rect x="550" y="50" width="20" height="3" fill="#4F46E5"/>
+  <text x="580" y="55" font-family="Arial" font-size="12" fill="#64748B">AI Optimized Queue</text>
+  
+  <!-- Title -->
+  <text x="400" y="25" font-family="Arial" font-size="16" fill="#1E293B" text-anchor="middle" font-weight="bold">Queue Length Comparison: Traditional vs. AI-Optimized</text>
+</svg>
